@@ -14,8 +14,8 @@ export default function Navbar() {
             <ul className="flex items-center">
                 <li className="flex p-5"><Link href="/">HOME</Link></li>
                 <li className="flex p-5"><Link href="/projects">PROJECTS</Link></li>
-                <li className="flex p-5"><Link href="/exp">EXPERIENCE</Link></li>
-                <li className="flex p-5"><Link href="/ach">ACHIEVEMENTS</Link></li>
+                <li className="flex p-5"><Link href="/experience">EXPERIENCE</Link></li>
+                <li className="flex p-5"><Link href="/achievements">ACHIEVEMENTS</Link></li>
                 <li className="flex p-5"><Link href="/contact">CONTACT</Link></li>
             </ul>
     </nav>

@@ -12,16 +12,16 @@ export function CarouselComponent(){
             <Carousel className="w-full max-w-xl">
                 <CarouselContent>
                     <CarouselItem className="flex justify-center">
-                        <img src="/recapp.png" alt="Logo of recapp app" className="rounded-lg w-169 h-125" />
+                        <img src="/recapp.png" alt="Logo of recapp app" className="rounded-3xl w-169 h-125" />
                     </CarouselItem>
                     <CarouselItem className="flex justify-center">
-                        <img src="/mountain.png" alt="Mountain Hikers video game" className="object-cover rounded-lg w-169 h-125" />
+                        <img src="/mountain.png" alt="Mountain Hikers video game" className="object-cover rounded-3xl w-169 h-125" />
                     </CarouselItem>
                     <CarouselItem className="flex justify-center">
-                        <img src="/avc.jpg" alt="Autonomous Vehicle following obstacle course" className="object-cover rounded-lg w-169 h-125" />
+                        <img src="/avc.jpg" alt="Autonomous Vehicle following obstacle course" className="object-cover rounded-3xl w-169 h-125" />
                     </CarouselItem>
                     <CarouselItem className="flex justify-center">
-                        <img src="/penguin.png" alt="Logo of Project Kororā" className="object-cover rounded-lg w-169 h-125" />
+                        <img src="/penguin.png" alt="Logo of Project Kororā" className="object-cover rounded-3xl w-169 h-125" />
                     </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute bg-indigo-700" />     
